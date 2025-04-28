@@ -1,0 +1,269 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  width: 95%;
+   margin: auto;
+}
+
+.nav {
+  display: flex;
+  gap: 50px;
+  margin-left: 90px;
+  margin-top: 37px;
+}
+
+.menu {
+  margin-left: 160px;
+  margin-top: 17px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+}
+
+.menu2 {
+  margin-left: 100px;
+  margin-top: 17px;
+}
+
+#menu2 {
+  text-decoration: none;
+  background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+}
+
+.main-text {
+  margin-top: 100px;
+  margin-left: 90px;
+  display: flex;
+  gap: 95px;
+}
+
+.tt1 {
+  font-family: Red Rose;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 140%;
+  letter-spacing: -2%;
+}
+
+.tt2 {
+  font-family: Red Rose;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  letter-spacing: 0%;
+}
+
+#R {
+  color: #A02279;
+}
+
+.ev {
+  margin-top: 70px;
+  display: flex;
+  background-color: #A02279;
+  gap: 240px;
+  padding-left: 130px;
+  height: 50px;
+  padding-top: 5px;
+}
+
+section {
+  margin-top: 30px;
+}
+
+.sec1 {
+  font-family: Red Rose;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+/* .sec2{
+  width: 95%;
+  margin: 40px auto;
+} */
+
+.sec3 {
+  display: flex;
+  /* margin-left: 85px;
+  margin-top: 40px; */
+  width: 95%;
+  margin: 40px auto;
+  justify-content: space-between;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.sec4 {
+  display: flex;
+  /* margin-left: 85px;
+  margin-top: 40px; */
+  width: 95%;
+  margin: 40px auto;
+  justify-content: space-between;
+  gap: 20px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+article {
+  background-color: #A02279;
+  display: flex;
+  gap: 110px;
+  /* margin-bottom: 20px; */
+  padding-bottom: 50px;
+}
+
+.art2 {
+  font-family: Red Rose;
+  font-weight: 700;
+  color: white;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  padding-top: 150px;
+  padding-left: 90px;
+}
+
+.art3 {
+  font-family: Red Rose;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 35px;
+  letter-spacing: 0%;
+  padding-top: 50px;
+  padding-left: 90px;
+  color: white;
+}
+
+.art5 img {
+  width: 600px;
+  padding-top: 90px;
+  /* padding-left: 0px; */
+}
+
+.art4 {
+  width: 156px;
+  height: 48px;
+  background-color: white;
+  margin-left: 86px;
+  margin-top: 30px;
+  padding-top: 14px;
+  padding-left: 30px;
+  border-radius: 8px;
+}
+
+.art4 a {
+  text-decoration: none;
+  color: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+}
+
+footer {
+  background: rgba(29, 29, 30, 1);
+  /* width: 1440px; */
+  height: 322px;
+  top: 2568px;
+}
+
+.footercon {
+  padding-top: 80px;
+  padding-left: 90px;
+}
+
+.footerlogo {
+  margin-bottom: 80px;
+}
+
+#insta {
+  margin-left: 30px;
+}
+
+#twitter {
+  margin-left: 30px;
+}
+
+.copyright {
+  margin-top: 50px;
+}
+
+footer {
+  display: flex;
+  gap: 150px;
+}
+
+.footercon2 {
+  display: flex;
+  gap: 200px;
+  color: white;
+  padding-top: 80px;
+}
+
+.com2 {
+  font-family: Red Rose;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  padding-bottom: 30px;
+}
+
+.com3 {
+  font-family: Red Rose;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 35px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+
+.place2 {
+  font-family: Red Rose;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  padding-bottom: 30px;
+}
+
+.place3 {
+  font-family: Red Rose;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 35px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+
+.about2 {
+  font-family: Red Rose;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  padding-bottom: 30px;
+}
+
+.about3 {
+  font-family: Red Rose;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 35px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
