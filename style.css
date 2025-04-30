@@ -6,20 +6,34 @@
 
 body {
   font-family: "Inter", sans-serif;
+  /* width: 95%;
+  margin: auto; */
+}
+
+.container {
+  width: 1400px;
   width: 95%;
-   margin: auto;
+  margin: auto;
 }
 
 .nav {
   display: flex;
-  gap: 50px;
-  margin-left: 90px;
-  margin-top: 37px;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 20px 0;
+  /* margin-left: 90px;
+  margin-top: 37px; */
+}
+
+.general-menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 .menu {
-  margin-left: 160px;
-  margin-top: 17px;
+  /* margin-left: 160px; */
+  /* margin-top: 17px; */
 }
 
 ul {
@@ -29,8 +43,12 @@ ul {
 }
 
 .menu2 {
-  margin-left: 100px;
-  margin-top: 17px;
+  /* margin-left: 100px; */
+  /* margin-top: 17px; */
+}
+
+.hamburger {
+  display: none;
 }
 
 #menu2 {
@@ -74,10 +92,11 @@ ul {
 .ev {
   margin-top: 70px;
   display: flex;
+  justify-content: space-between;
   background-color: #A02279;
-  gap: 240px;
+  /* gap: 240px; */
   padding-left: 130px;
-  height: 50px;
+  /* height: 50px; */
   padding-top: 5px;
 }
 
@@ -177,7 +196,7 @@ article {
 footer {
   background: rgba(29, 29, 30, 1);
   /* width: 1440px; */
-  height: 322px;
+  /* height: 322px; */
   top: 2568px;
 }
 
@@ -266,4 +285,73 @@ footer {
   line-height: 35px;
   letter-spacing: 0%;
   vertical-align: middle;
+}
+
+@media (max-width: 824px) {
+  .main-text {
+    flex-direction: column;
+  }
+
+  .main-text2, .main-text1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  #menu-text2{
+    width: 100%;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .menu2, .menu {
+    display: none;
+  }
+
+  .ev{
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 90px;
+  }
+
+  .sec3{
+    flex-direction: column;
+  }
+
+  .sec4{
+    flex-direction: column;
+  }
+
+  article{
+    flex-direction: column;
+  }
+
+  #art5{
+    width: 100%;
+    padding-top: 0;
+    /* padding-left: 90px; */
+  }
+
+  footer{
+    flex-direction: column;
+  }
+
+  .footercon2{
+    flex-direction: column;
+    padding-left: 90px;
+    padding-top: 0;
+  }
+
+  .main-text {
+    margin-left: 0;
+  }
+
+  .footercon2{
+    gap: 60px;
+  }
+
+  footer{
+    gap: 100px;
+  }
 }
