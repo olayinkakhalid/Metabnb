@@ -104,21 +104,21 @@ section {
   margin-top: 30px;
 }
 
-.sec{
+.sec {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 
 }
 
-.card-container{
+.card-container {
   display: flex;
   justify-content: space-between;
   /* margin-bottom: 10px;
   margin-top: 10px; */
   padding: 15px;
   border-radius: 20px;
-  border: 1px  solid rgba(215, 215, 215, 1); 
+  border: 1px solid rgba(215, 215, 215, 1);
 }
 
 .card-img {
@@ -323,56 +323,78 @@ footer {
 }
 
 @media (max-width: 824px) {
+
   .main-text {
     flex-direction: column;
   }
 
-  .main-text2, .main-text1 {
+  .main-text2,
+  .main-text1 {
     width: 100%;
     text-align: center;
   }
 
-  #menu-text2{
+  #menu-text2 {
     width: 100%;
+  }
+
+  .general-menu {
+    position: relative;
   }
 
   .hamburger {
     display: block;
   }
 
-  .menu2, .menu {
+  #ul {
+    display: none;
+    background-color: #000;
+    color: #fff;
+    position: absolute;
+    left: -212px;
+    top: -20px;
+    width: 273px;
+    padding-left: 20px;
+    height: 100vh;
+  }
+
+  .menu ul li{
+    padding-top: 20px;
+  }
+
+  .menu2 {
     display: none;
   }
 
-  .ev{
+  .ev {
     flex-direction: column;
     gap: 20px;
     padding-left: 90px;
   }
 
-  .sec3{
+  .sec3 {
     flex-direction: column;
   }
 
-  .sec4{
+  .sec4 {
     flex-direction: column;
   }
 
-  article{
+  article {
     flex-direction: column;
   }
 
-  #art5{
+  #art5 {
     width: 100%;
     padding-top: 0;
     /* padding-left: 90px; */
   }
 
-  footer{
+  footer {
     flex-direction: column;
   }
 
-  .footercon2{
+  .footercon2 {
     flex-direction: column;
     padding-left: 90px;
     padding-top: 0;
@@ -382,11 +404,11 @@ footer {
     margin-left: 0;
   }
 
-  .footercon2{
+  .footercon2 {
     gap: 60px;
   }
 
-  footer{
+  footer {
     gap: 100px;
   }
 }
